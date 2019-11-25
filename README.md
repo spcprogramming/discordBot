@@ -1,8 +1,8 @@
 #Discord Bot
-[Discord.py API Documentation](https://discordpy.readthedocs.io/en/latest/)
-[Google Calendar Python API Documentation](https://developers.google.com/calendar/quickstart/python)
-[Spotify Python API Documentation](https://spotipy.readthedocs.io/en/latest/)
-[Chatbot Stuff](https://github.com/fendouai/Awesome-Chatbot)
+[Discord.py API Documentation](https://discordpy.readthedocs.io/en/latest/)<br>
+[Google Calendar Python API Documentation](https://developers.google.com/calendar/quickstart/python)<br>
+[Spotify Python API Documentation](https://spotipy.readthedocs.io/en/latest/)<br>
+[Chatbot Stuff](https://github.com/fendouai/Awesome-Chatbot)<br>
 
 1. Reminders
 	- Add
