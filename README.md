@@ -1,4 +1,9 @@
 #Discord Bot
+[Discord.py API Documentation](https://discordpy.readthedocs.io/en/latest/)
+[Google Calendar Python API Documentation](https://developers.google.com/calendar/quickstart/python)
+[Spotify Python API Documentation](https://spotipy.readthedocs.io/en/latest/)
+[Chatbot Stuff](https://github.com/fendouai/Awesome-Chatbot)
+
 1. Reminders
 	- Add
 	- Remove
@@ -22,3 +27,5 @@
 	- Maybe gurus for specialities
 5. Chatbot
 	- Memes
+6. Webhook to the website
+	- pull members and other stuff
