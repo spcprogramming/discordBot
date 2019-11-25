@@ -29,3 +29,7 @@
 	- Memes
 6. Webhook to the website
 	- pull members and other stuff
+
+
+5334. Add full AI you control with your voice
+	- [Mycroft AI](https://mycroft.ai/)
