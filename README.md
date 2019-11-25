@@ -1,4 +1,4 @@
-#Discord Bot
+#Discord Bot<br>
 [Discord.py API Documentation](https://discordpy.readthedocs.io/en/latest/)<br>
 [Google Calendar Python API Documentation](https://developers.google.com/calendar/quickstart/python)<br>
 [Spotify Python API Documentation](https://spotipy.readthedocs.io/en/latest/)<br>
