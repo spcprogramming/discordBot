@@ -5,8 +5,8 @@ import json
 import bot_token
 import reminder
 
-def pred(m):
-    return m.author == message.author and m.channel == message.channel
+def pred(msg):
+    return msg.author == msg.author and msg.channel == msg.channel
 
 client = discord.Client()
 
@@ -30,7 +30,7 @@ async def on_message(message):
             # get reminder title
             await message.channel.send("What is the title of the reminder?")
             try:
-                msg = await client.wait_for('message', author=message.author, timeout=60.0)
+                msg = await client.wait_for('message', author=messsage.author, timeout=60.0)
             except asyncio.TimeoutError:
                 await message.channel.send("You took too long to give a title...")
             else:
