@@ -30,7 +30,7 @@ async def on_message(message):
             # get reminder title
             await message.channel.send("What is the title of the reminder?")
             try:
-                msg = await client.wait_for('message', author=messsage.author, timeout=60.0)
+                msg = await client.wait_for('message', timeout=60.0)
             except asyncio.TimeoutError:
                 await message.channel.send("You took too long to give a title...")
             else:
@@ -39,7 +39,7 @@ async def on_message(message):
             # get date
             await message.channel.send("What is the date that " + new_reminder.title + " will take place? MM/DD/YY format.")
             try:
-                msg = await client.wait_for('message', check=(msg.author==message.author), timeout = 60.0)
+                msg = await client.wait_for('message', timeout = 60.0)
             except asyncio.TimeoutError:
                 await message.channel.send("You took too long to give a date...")
             else:
@@ -48,7 +48,7 @@ async def on_message(message):
             # get time
             await message.channel.send("When will " + new_reminder.title + " take place on " + new_reminder.date + "? 24 hour format (HH:MM)")
             try:
-                msg = await client.wait_for('message', check=(msg.author==message.author), timeout = 60.0)
+                msg = await client.wait_for('message', timeout = 60.0)
             except asyncio.TimeoutError:
                 await message.channel.send("You took too long to give a time...")
             else:
@@ -57,7 +57,7 @@ async def on_message(message):
             # get description
             await message.channel.send("Can you give a brief description of the event?")
             try:
-                msg = await client.wait_for('message', check=(msg.author==message.author), timeout = 60.0)
+                msg = await client.wait_for('message', timeout = 60.0)
             except asyncio.TimeoutError:
                 await message.channel.send("You took too long to give a description...")
             else:
