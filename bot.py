@@ -5,8 +5,8 @@ import json
 import bot_token
 import reminder
 
-def pred(m):
-    return m.author == message.author and m.channel == message.channel
+def pred(msg):
+    return msg.author == msg.author and msg.channel == msg.channel
 
 client = discord.Client()
 
