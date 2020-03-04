@@ -35,3 +35,4 @@
 [Python DateTime](https://docs.python.org/3/library/datetime.html): For checking time for reminders  
 [Google Calendar Python API](https://developers.google.com/calendar/quickstart/python): If we want more integration with online calendars  
 [Mycroft AI](https://mycroft.ai/): If we want to add AI voice assistant to voice channels  
+[Direnv](https://direnv.net): This is good tool to manage your project environment like secrets/tokens, envars, etc.
